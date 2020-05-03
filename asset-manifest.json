@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/amberyiyao/static/css/main.03745d9b.chunk.css",
+    "main.js": "/amberyiyao/static/js/main.919e1141.chunk.js",
+    "main.js.map": "/amberyiyao/static/js/main.919e1141.chunk.js.map",
+    "runtime-main.js": "/amberyiyao/static/js/runtime-main.aacd8610.js",
+    "runtime-main.js.map": "/amberyiyao/static/js/runtime-main.aacd8610.js.map",
+    "static/js/2.ea6faad1.chunk.js": "/amberyiyao/static/js/2.ea6faad1.chunk.js",
+    "static/js/2.ea6faad1.chunk.js.map": "/amberyiyao/static/js/2.ea6faad1.chunk.js.map",
+    "index.html": "/amberyiyao/index.html",
+    "precache-manifest.91e1d9a2069c0b926aaff9cb0d54270a.js": "/amberyiyao/precache-manifest.91e1d9a2069c0b926aaff9cb0d54270a.js",
+    "service-worker.js": "/amberyiyao/service-worker.js",
+    "static/css/main.03745d9b.chunk.css.map": "/amberyiyao/static/css/main.03745d9b.chunk.css.map",
+    "static/js/2.ea6faad1.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.ea6faad1.chunk.js.LICENSE.txt",
+    "static/media/ContactMe.css": "/amberyiyao/static/media/homeBack.7e666208.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aacd8610.js",
+    "static/js/2.ea6faad1.chunk.js",
+    "static/css/main.03745d9b.chunk.css",
+    "static/js/main.919e1141.chunk.js"
+  ]
+}
