@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amberyiyao/static/css/main.af3bce8b.chunk.css",
+    "main.css": "/amberyiyao/static/css/main.015cebba.chunk.css",
     "main.js": "/amberyiyao/static/js/main.387bf7d3.chunk.js",
     "main.js.map": "/amberyiyao/static/js/main.387bf7d3.chunk.js.map",
     "runtime-main.js": "/amberyiyao/static/js/runtime-main.aacd8610.js",
@@ -8,9 +8,9 @@
     "static/js/2.326e8905.chunk.js": "/amberyiyao/static/js/2.326e8905.chunk.js",
     "static/js/2.326e8905.chunk.js.map": "/amberyiyao/static/js/2.326e8905.chunk.js.map",
     "index.html": "/amberyiyao/index.html",
-    "precache-manifest.709656b01bcc3e8885bd5189f7dfdf9e.js": "/amberyiyao/precache-manifest.709656b01bcc3e8885bd5189f7dfdf9e.js",
+    "precache-manifest.c159734aea5caf82d7668d0d9ef736c5.js": "/amberyiyao/precache-manifest.c159734aea5caf82d7668d0d9ef736c5.js",
     "service-worker.js": "/amberyiyao/service-worker.js",
-    "static/css/main.af3bce8b.chunk.css.map": "/amberyiyao/static/css/main.af3bce8b.chunk.css.map",
+    "static/css/main.015cebba.chunk.css.map": "/amberyiyao/static/css/main.015cebba.chunk.css.map",
     "static/js/2.326e8905.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.326e8905.chunk.js.LICENSE.txt",
     "static/media/1.png": "/amberyiyao/static/media/1.7747e819.png",
     "static/media/2.png": "/amberyiyao/static/media/2.b4e2c4db.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.aacd8610.js",
     "static/js/2.326e8905.chunk.js",
-    "static/css/main.af3bce8b.chunk.css",
+    "static/css/main.015cebba.chunk.css",
     "static/js/main.387bf7d3.chunk.js"
   ]
 }
