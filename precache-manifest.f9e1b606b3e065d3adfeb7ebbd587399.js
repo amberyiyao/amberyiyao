@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5e254ada9238c3c4467e61edee7b721",
+    "revision": "3c157e3f987eb731ac428c8e59c374ff",
     "url": "/amberyiyao/index.html"
   },
   {
-    "revision": "c8e2190e5499d666bf54",
-    "url": "/amberyiyao/static/css/main.663f5fb7.chunk.css"
+    "revision": "dd7f0c6998523bcf675f",
+    "url": "/amberyiyao/static/css/main.fa369e4e.chunk.css"
   },
   {
-    "revision": "e60a01e84bca7fa045f3",
-    "url": "/amberyiyao/static/js/2.5f1e7ff6.chunk.js"
+    "revision": "f9645ac01d259ef8b8f6",
+    "url": "/amberyiyao/static/js/2.a06f23d2.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/amberyiyao/static/js/2.5f1e7ff6.chunk.js.LICENSE.txt"
+    "url": "/amberyiyao/static/js/2.a06f23d2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c8e2190e5499d666bf54",
-    "url": "/amberyiyao/static/js/main.a8ef8ebe.chunk.js"
+    "revision": "dd7f0c6998523bcf675f",
+    "url": "/amberyiyao/static/js/main.9a653d10.chunk.js"
   },
   {
     "revision": "0f9de8d7d07424782219",
