@@ -1,17 +1,8 @@
-.home{
-    width: 100%;
-}
 
 .homeMain{
-    width: 90vw;
+    width: 90%;
     margin: 0 auto;
-    /* position: relative;
-    top: calc(5vh); */
     padding: 5vh 0;
-}
-
-.shadowBox{
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
 }
 
 

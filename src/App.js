@@ -1,13 +1,33 @@
 import React from 'react';
 import Home from './screens/Home'
+import Work from './screens/Works'
+import HeaderImage from './img/homeBack.png'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-        <Home/>
-    </div>
-  );
-}
+export default class App extends React.Component{
 
-export default App;
+  state = {
+    pageState: 0
+  }
+
+  render(){
+    return (
+      <Router>
+        <div className="App">
+            <div className="Back">
+              <img className="BackImage" src={HeaderImage}/>
+            </div>
+            <Switch>
+              <Route path='/work'>
+                <Work/>
+              </Route>
+              <Route path='/'>
+                <Home/>
+              </Route>
+            </Switch>
+        </div>
+      </Router>
+    );
+  }
+} 

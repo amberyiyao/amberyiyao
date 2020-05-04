@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../css/Home/ContactMe.css';
 
-export default function ContactMe() {
+export default function ContactMe(props) {
   return (
-      <footer className="contactMe" id='contactMe'>
+      <footer className="contactMe" id='contactMe' ref={props.refC}>
           <div className="contactMeMain">
             <p className="contactMeTitle">CONTECT ME</p>
             <form className="contactMeForm">
