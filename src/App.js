@@ -11,7 +11,7 @@ export default class App extends React.Component{
 
   render(){
     return (
-      <Router>
+      <Router basename="/amberyiyao">
         <div className="App">
             <div className="Back">
               <img className="BackImage" src={HeaderImage}/>
