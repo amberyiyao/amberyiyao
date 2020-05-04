@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/amberyiyao/static/css/main.015cebba.chunk.css",
-    "main.js": "/amberyiyao/static/js/main.387bf7d3.chunk.js",
-    "main.js.map": "/amberyiyao/static/js/main.387bf7d3.chunk.js.map",
-    "runtime-main.js": "/amberyiyao/static/js/runtime-main.aacd8610.js",
-    "runtime-main.js.map": "/amberyiyao/static/js/runtime-main.aacd8610.js.map",
-    "static/js/2.326e8905.chunk.js": "/amberyiyao/static/js/2.326e8905.chunk.js",
-    "static/js/2.326e8905.chunk.js.map": "/amberyiyao/static/js/2.326e8905.chunk.js.map",
+    "main.css": "/amberyiyao/static/css/main.663f5fb7.chunk.css",
+    "main.js": "/amberyiyao/static/js/main.78d0c22e.chunk.js",
+    "main.js.map": "/amberyiyao/static/js/main.78d0c22e.chunk.js.map",
+    "runtime-main.js": "/amberyiyao/static/js/runtime-main.de9c773c.js",
+    "runtime-main.js.map": "/amberyiyao/static/js/runtime-main.de9c773c.js.map",
+    "static/js/2.5f1e7ff6.chunk.js": "/amberyiyao/static/js/2.5f1e7ff6.chunk.js",
+    "static/js/2.5f1e7ff6.chunk.js.map": "/amberyiyao/static/js/2.5f1e7ff6.chunk.js.map",
     "index.html": "/amberyiyao/index.html",
-    "precache-manifest.c159734aea5caf82d7668d0d9ef736c5.js": "/amberyiyao/precache-manifest.c159734aea5caf82d7668d0d9ef736c5.js",
+    "precache-manifest.ffcb9ebf25e06391abf8b095cc46b9a8.js": "/amberyiyao/precache-manifest.ffcb9ebf25e06391abf8b095cc46b9a8.js",
     "service-worker.js": "/amberyiyao/service-worker.js",
-    "static/css/main.015cebba.chunk.css.map": "/amberyiyao/static/css/main.015cebba.chunk.css.map",
-    "static/js/2.326e8905.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.326e8905.chunk.js.LICENSE.txt",
+    "static/css/main.663f5fb7.chunk.css.map": "/amberyiyao/static/css/main.663f5fb7.chunk.css.map",
+    "static/js/2.5f1e7ff6.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.5f1e7ff6.chunk.js.LICENSE.txt",
     "static/media/1.png": "/amberyiyao/static/media/1.7747e819.png",
     "static/media/2.png": "/amberyiyao/static/media/2.b4e2c4db.png",
     "static/media/3.png": "/amberyiyao/static/media/3.bc1e961b.png",
@@ -24,9 +24,9 @@
     "static/media/ContactMe.css": "/amberyiyao/static/media/homeBack.7e666208.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aacd8610.js",
-    "static/js/2.326e8905.chunk.js",
-    "static/css/main.015cebba.chunk.css",
-    "static/js/main.387bf7d3.chunk.js"
+    "static/js/runtime-main.de9c773c.js",
+    "static/js/2.5f1e7ff6.chunk.js",
+    "static/css/main.663f5fb7.chunk.css",
+    "static/js/main.78d0c22e.chunk.js"
   ]
 }
