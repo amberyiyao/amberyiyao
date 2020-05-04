@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/amberyiyao/static/css/main.8eb3e80e.chunk.css",
-    "main.js": "/amberyiyao/static/js/main.aec5c043.chunk.js",
-    "main.js.map": "/amberyiyao/static/js/main.aec5c043.chunk.js.map",
+    "main.css": "/amberyiyao/static/css/main.af3bce8b.chunk.css",
+    "main.js": "/amberyiyao/static/js/main.387bf7d3.chunk.js",
+    "main.js.map": "/amberyiyao/static/js/main.387bf7d3.chunk.js.map",
     "runtime-main.js": "/amberyiyao/static/js/runtime-main.aacd8610.js",
     "runtime-main.js.map": "/amberyiyao/static/js/runtime-main.aacd8610.js.map",
-    "static/js/2.ea6faad1.chunk.js": "/amberyiyao/static/js/2.ea6faad1.chunk.js",
-    "static/js/2.ea6faad1.chunk.js.map": "/amberyiyao/static/js/2.ea6faad1.chunk.js.map",
+    "static/js/2.326e8905.chunk.js": "/amberyiyao/static/js/2.326e8905.chunk.js",
+    "static/js/2.326e8905.chunk.js.map": "/amberyiyao/static/js/2.326e8905.chunk.js.map",
     "index.html": "/amberyiyao/index.html",
-    "precache-manifest.9df0ed38e862a22c60306e74829a633a.js": "/amberyiyao/precache-manifest.9df0ed38e862a22c60306e74829a633a.js",
+    "precache-manifest.709656b01bcc3e8885bd5189f7dfdf9e.js": "/amberyiyao/precache-manifest.709656b01bcc3e8885bd5189f7dfdf9e.js",
     "service-worker.js": "/amberyiyao/service-worker.js",
-    "static/css/main.8eb3e80e.chunk.css.map": "/amberyiyao/static/css/main.8eb3e80e.chunk.css.map",
-    "static/js/2.ea6faad1.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.ea6faad1.chunk.js.LICENSE.txt",
+    "static/css/main.af3bce8b.chunk.css.map": "/amberyiyao/static/css/main.af3bce8b.chunk.css.map",
+    "static/js/2.326e8905.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.326e8905.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/amberyiyao/static/media/1.7747e819.png",
+    "static/media/2.png": "/amberyiyao/static/media/2.b4e2c4db.png",
+    "static/media/3.png": "/amberyiyao/static/media/3.bc1e961b.png",
+    "static/media/4.png": "/amberyiyao/static/media/4.a8070e8a.png",
+    "static/media/5.png": "/amberyiyao/static/media/5.8146909a.png",
+    "static/media/6.png": "/amberyiyao/static/media/6.f9505bbd.png",
+    "static/media/7.png": "/amberyiyao/static/media/7.6d6002ad.png",
+    "static/media/8.png": "/amberyiyao/static/media/8.e7ad8c7c.png",
+    "static/media/9.png": "/amberyiyao/static/media/9.728a7440.png",
     "static/media/ContactMe.css": "/amberyiyao/static/media/homeBack.7e666208.png"
   },
   "entrypoints": [
     "static/js/runtime-main.aacd8610.js",
-    "static/js/2.ea6faad1.chunk.js",
-    "static/css/main.8eb3e80e.chunk.css",
-    "static/js/main.aec5c043.chunk.js"
+    "static/js/2.326e8905.chunk.js",
+    "static/css/main.af3bce8b.chunk.css",
+    "static/js/main.387bf7d3.chunk.js"
   ]
 }
