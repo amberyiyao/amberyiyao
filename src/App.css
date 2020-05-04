@@ -38,3 +38,11 @@ body{
     z-index: -1;
     filter: blur(10px);
 }
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  opacity: 0.4;
+  position: relative;
+  bottom: 1rem;
+}

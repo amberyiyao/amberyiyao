@@ -3,13 +3,11 @@ import Home from './screens/Home'
 import Work from './screens/Works'
 import HeaderImage from './img/homeBack.png'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
 import './App.css';
 
 export default class App extends React.Component{
-
-  state = {
-    pageState: 0
-  }
+  
 
   render(){
     return (
@@ -26,6 +24,7 @@ export default class App extends React.Component{
                 <Home/>
               </Route>
             </Switch>
+            <p className="copyright">&copy; 2020 Amber Yiyao Zhou</p>
         </div>
       </Router>
     );

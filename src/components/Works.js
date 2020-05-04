@@ -1,6 +1,7 @@
 import React from 'react';
 import WorksCategory from './Home/WorksCategory'
 import WorksPicutres from './Home/WorksPicutres'
+import { Link } from 'react-router-dom'
 
 import WorksData from '../data/Works'
 import '../css/Home/Works.css';
@@ -39,7 +40,7 @@ export default class Works extends React.Component {
                 { currentPage === 0 ? <p className="homeWorksTitle">My Work</p> : ''}
                 <WorksCategory currentPage={currentPage} categoryId={this.state.categoryId} onChangeCategory={this.handleChangeCategory}/>
                 <WorksPicutres currentPage={currentPage} categoryId={this.state.categoryId} data={this.state.data}/>
-                { currentPage === 0 ? <a type="button" className="homeWorksViewMore">View More →</a> : ''}
+                { currentPage === 0 ? <Link to='/work' className="homeWorksViewMore">View More →</Link> : ''}
             </div>
           );
     }

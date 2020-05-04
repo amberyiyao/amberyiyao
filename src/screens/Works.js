@@ -16,6 +16,12 @@ export default class WorkPage extends React.Component {
         }
     }
 
+    componentDidMount(){
+        window.scrollTo({
+            top: 0
+        });
+    }
+
     render(){
         const { currentPage, headerContent } = this.state
         return(

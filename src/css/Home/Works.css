@@ -49,7 +49,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin: 2rem auto;
     grid-gap: 5px;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .homeWorksPicutresImgItem{
