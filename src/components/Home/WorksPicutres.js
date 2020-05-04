@@ -29,11 +29,11 @@ export default function WorksPicutres(props) {
     const { data, categoryId, currentPage } = props 
 
     const gridStyle = {
-        gridTemplateColumns: '1fr 1fr'
+        gridTemplateColumns: currentPage === 1 ? '1fr' : '1fr 1fr'
     }
 
     return (
-        <div className="homeWorksPicutres" style={ categoryId === 2 || currentPage ===1 ? gridStyle : {} }>
+        <div className="homeWorksPicutres" style={ categoryId === 2 || currentPage === 1 ? gridStyle : {} }>
             {
                 data.map((item,index) => <ImgItem img={item.img} key={index} title={item.title}/>)
             }

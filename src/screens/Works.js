@@ -10,7 +10,7 @@ export default class WorkPage extends React.Component {
     state = {
         currentPage: 1,
         headerContent : {
-            line1: 'POTFOLIO',
+            line1: 'PORTFOLIO',
             line2: 'MY WORKS',
             line3: 'I like both development and design'
         }
