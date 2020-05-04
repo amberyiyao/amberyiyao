@@ -42,6 +42,7 @@
 
 .contactMeForm{
     width: 100%;
+    max-width: 30rem;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -58,7 +59,7 @@
 }
 
 .contactMeInput:focus,.contactMeTextarea:focus{
-    background-color: rgba(255, 255, 255, 0.78);
+    background-color: rgba(255, 255, 255, 0.9);
     color: black;
 }
 

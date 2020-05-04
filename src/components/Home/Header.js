@@ -13,12 +13,12 @@ export default function Header() {
                     <a href="#contactMe">Contact Me</a>
                 </div>
                 <div className="socailMedia">
-                    <i class="fab fa-linkedin-in"></i>
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-linkedin-in"></i>
+                    <i className="fab fa-github"></i>
                 </div>
             </nav>
             <div className="homeHeaderInfo">
-                <p className="homeHeaderContentSelf"><p className="homeHeaderHello">HELLO</p>I AM AMBER</p>
+                <p className="homeHeaderContentSelf"><span className="homeHeaderHello">HELLO</span>I AM AMBER</p>
                 <p className="homeHeaderContentDes">A full-stack developer with UI/UX design skills.</p>    
                 <a href="#aboutMe" className="aboutMeButton">About Me</a>
             </div>
