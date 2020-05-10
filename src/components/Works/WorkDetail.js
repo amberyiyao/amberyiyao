@@ -27,8 +27,7 @@ export default class WorkDetail extends React.Component{
                     }
                 </Carousel>
                 <div className="workContent">
-                    <p className="workTitle">{targetWorkData.title}</p>
-                    <p className="workTime">{targetWorkData.time}</p>
+                    <p className="workTitle">{targetWorkData.title}<span className="workTime">{targetWorkData.time}</span></p>
                     <p className="workDiscreption">{targetWorkData.discreption}</p>
                 </div>
             </div>
