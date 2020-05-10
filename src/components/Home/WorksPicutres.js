@@ -14,10 +14,10 @@ class ImgItem extends React.Component{
     render(){
         const {isHover } = this.state
         return(
-            <div className={isHover? 'homeWorksPicutresImgItem onMouseOver' :"homeWorksPicutresImgItem" } onMouseOver={this.taggleIsHover} onMouseOut={this.taggleIsHover}>
-                <img className={ isHover ? 'homeWorksPicutresImg onMouseOver' : "homeWorksPicutresImg"} src={this.props.img}/>
+            <div onClick={()=>this.props.onShowWorkDetail(this.props.data.id)} className={isHover? 'homeWorksPicutresImgItem onMouseOver' :"homeWorksPicutresImgItem" } onMouseOver={this.taggleIsHover} onMouseOut={this.taggleIsHover}>
+                <img className={ isHover ? 'homeWorksPicutresImg onMouseOver' : "homeWorksPicutresImg"} src={this.props.data.cover}/>
                 <div className="homeWorksInfo">
-                    <p className="homeWorksPicutresImgItemTitle">{this.props.title}</p>
+                    <p className="homeWorksPicutresImgItemTitle">{this.props.data.title}</p>
                     <i className="fas fa-arrow-circle-right"></i>
                 </div>
             </div>
@@ -26,7 +26,7 @@ class ImgItem extends React.Component{
 }
 
 export default function WorksPicutres(props) {
-    const { data, categoryId, currentPage } = props 
+    const { data, categoryId, currentPage, onShowWorkDetail } = props 
 
     const gridStyle = {
         gridTemplateColumns: currentPage === 1 ? '1fr' : '1fr 1fr'
@@ -35,7 +35,7 @@ export default function WorksPicutres(props) {
     return (
         <div className="homeWorksPicutres" style={ categoryId === 2 || currentPage === 1 ? gridStyle : {} }>
             {
-                data.map((item,index) => <ImgItem img={item.img} key={index} title={item.title}/>)
+                data.map((item,index) => <ImgItem onShowWorkDetail={onShowWorkDetail} data={item} key={index}/>)
             }
         </div>
     );

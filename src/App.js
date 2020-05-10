@@ -2,29 +2,46 @@ import React from 'react';
 import Home from './screens/Home'
 import Work from './screens/Works'
 import HeaderImage from './img/homeBack.png'
+import WorkDetail from './components/Works/WorkDetail'
+import Modal from 'react-bootstrap/Modal'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 export default class App extends React.Component{
   
+  state = {
+    isShowWorkDetail: false,
+    targetWorkId:0
+  }
+
+  showWorkDetail = (targetWorkId) => {
+    this.setState({isShowWorkDetail: true, targetWorkId})
+  }
+
+  hideWorkDetail = () => {
+    this.setState({isShowWorkDetail: false})
+  }
 
   render(){
     return (
       <Router basename="/amberyiyao">
         <div className="App">
-            <div className="Back">
-              <img className="BackImage" src={HeaderImage}/>
-            </div>
-            <Switch>
-              <Route path='/work'>
-                <Work/>
-              </Route>
-              <Route path='/'>
-                <Home/>
-              </Route>
-            </Switch>
-            <p className="copyright">&copy; 2020 Amber Yiyao Zhou</p>
+          <Modal onHide={this.hideWorkDetail} show={this.state.isShowWorkDetail} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
+            <WorkDetail targetWorkId={this.state.targetWorkId}/>
+          </Modal>
+          <div className="Back">
+            <img className="BackImage" src={HeaderImage}/>
+          </div>
+          <Switch>
+            <Route path='/work'>
+              <Work onShowWorkDetail={this.showWorkDetail}/>
+            </Route>
+            <Route path='/'>
+              <Home onShowWorkDetail={this.showWorkDetail}/>
+            </Route>
+          </Switch>
+          <p className="copyright">&copy; 2020 Amber Yiyao Zhou</p>
         </div>
       </Router>
     );

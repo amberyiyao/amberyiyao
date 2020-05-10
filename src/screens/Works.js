@@ -28,7 +28,7 @@ export default class WorkPage extends React.Component {
             <div className="WorkPage">
                 <div className="shadowBox">
                     <Header currentPage={currentPage} headerContent={headerContent}/>
-                    <Works currentPage={currentPage}/>
+                    <Works onShowWorkDetail={this.props.onShowWorkDetail} currentPage={currentPage}/>
                 </div>
             </div>
         )

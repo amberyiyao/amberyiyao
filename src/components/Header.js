@@ -13,7 +13,7 @@ export default function Header(props) {
             <nav>
                 <div className="navOptions">
                     <Link to='/' className={ currentPage === 0 ? "activeNav" : ''}>Home</Link>
-                    <Link to='/work' className={ currentPage === 1 ? "activeNav" : ''}>Work</Link>
+                    <Link to='/work' className={ currentPage === 1 ? "activeNav" : ''}>Portfolio</Link>
                     <Link to='/#contactMe' onClick={scrollToContact} href="#contactMe">Contact Me</Link>
                 </div>
                 <div className="socailMedia">

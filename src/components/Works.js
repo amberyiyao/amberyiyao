@@ -13,9 +13,15 @@ export default class Works extends React.Component {
     }
 
     handleChangeCategory = (categoryId, isSlice) => {
-        let data
+        let data = WorksData
+        data.sort((a,b) => {
+            let x = Number(a.time.split('-').join('').split('-').join(''))
+            let y = Number(b.time.split('-').join('').split('-').join(''))
+
+            return y - x
+        })
         if(categoryId === 0){
-            data = isSlice ? WorksData.slice(0,9) : WorksData
+            data = isSlice ? data.slice(0,9) : data
         } else {
             data = WorksData.filter(item => item.type === categoryId)
             data = isSlice ? data.slice(0,9) : data
@@ -39,7 +45,7 @@ export default class Works extends React.Component {
             <div className="homeWorks">
                 { currentPage === 0 ? <p className="homeWorksTitle">My Work</p> : ''}
                 <WorksCategory currentPage={currentPage} categoryId={this.state.categoryId} onChangeCategory={this.handleChangeCategory}/>
-                <WorksPicutres currentPage={currentPage} categoryId={this.state.categoryId} data={this.state.data}/>
+                <WorksPicutres onShowWorkDetail={this.props.onShowWorkDetail} currentPage={currentPage} categoryId={this.state.categoryId} data={this.state.data}/>
                 { currentPage === 0 ? <Link to='/work' className="homeWorksViewMore">View More →</Link> : ''}
             </div>
           );

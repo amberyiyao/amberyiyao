@@ -46,7 +46,7 @@ export default class Home extends React.Component{
                 <div className="shadowBox">
                     <Header scrollToContact={this.scrollToContact} currentPage={this.state.currentPage} headerContent={this.state.headerContent}/>
                     <AboutMe/>
-                    <Works currentPage={0}/>
+                    <Works onShowWorkDetail={this.props.onShowWorkDetail} currentPage={0}/>
                     <ContactMe refC={this.contactMeRef} openNotification={this.openNotification}/>
                 </div>
                 <Notification isShowNotification={this.state.isShowNotification}/>
