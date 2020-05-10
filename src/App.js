@@ -28,6 +28,7 @@ export default class App extends React.Component{
       <Router basename="/amberyiyao">
         <div className="App">
           <Modal onHide={this.hideWorkDetail} show={this.state.isShowWorkDetail} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
+            <i onClick={this.hideWorkDetail} className="far fa-times-circle"></i>
             <WorkDetail targetWorkId={this.state.targetWorkId}/>
           </Modal>
           <div className="Back">
