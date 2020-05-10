@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/amberyiyao/static/css/main.61928907.chunk.css",
-    "main.js": "/amberyiyao/static/js/main.12cc49d3.chunk.js",
-    "main.js.map": "/amberyiyao/static/js/main.12cc49d3.chunk.js.map",
+    "main.js": "/amberyiyao/static/js/main.c4e2a960.chunk.js",
+    "main.js.map": "/amberyiyao/static/js/main.c4e2a960.chunk.js.map",
     "runtime-main.js": "/amberyiyao/static/js/runtime-main.aacd8610.js",
     "runtime-main.js.map": "/amberyiyao/static/js/runtime-main.aacd8610.js.map",
     "static/css/2.7a16ea54.chunk.css": "/amberyiyao/static/css/2.7a16ea54.chunk.css",
     "static/js/2.a0078543.chunk.js": "/amberyiyao/static/js/2.a0078543.chunk.js",
     "static/js/2.a0078543.chunk.js.map": "/amberyiyao/static/js/2.a0078543.chunk.js.map",
     "index.html": "/amberyiyao/index.html",
-    "precache-manifest.7b1ae7a9934b8b400bf5c7d1aedfce7f.js": "/amberyiyao/precache-manifest.7b1ae7a9934b8b400bf5c7d1aedfce7f.js",
+    "precache-manifest.0e007d6fc2129f7d4e4fb82b17c305b1.js": "/amberyiyao/precache-manifest.0e007d6fc2129f7d4e4fb82b17c305b1.js",
     "service-worker.js": "/amberyiyao/service-worker.js",
     "static/css/2.7a16ea54.chunk.css.map": "/amberyiyao/static/css/2.7a16ea54.chunk.css.map",
     "static/css/main.61928907.chunk.css.map": "/amberyiyao/static/css/main.61928907.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.7a16ea54.chunk.css",
     "static/js/2.a0078543.chunk.js",
     "static/css/main.61928907.chunk.css",
-    "static/js/main.12cc49d3.chunk.js"
+    "static/js/main.c4e2a960.chunk.js"
   ]
 }
