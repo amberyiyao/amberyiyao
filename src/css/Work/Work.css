@@ -22,6 +22,7 @@
 .workDetailVideo{
     object-fit: contain;
     height: 63vh;
+    max-width: 100%;
 }
 
 .workContent{
