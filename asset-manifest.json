@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/amberyiyao/static/css/main.0cda7712.chunk.css",
-    "main.js": "/amberyiyao/static/js/main.12cc49d3.chunk.js",
-    "main.js.map": "/amberyiyao/static/js/main.12cc49d3.chunk.js.map",
+    "main.css": "/amberyiyao/static/css/main.b5c98a18.chunk.css",
+    "main.js": "/amberyiyao/static/js/main.64a10116.chunk.js",
+    "main.js.map": "/amberyiyao/static/js/main.64a10116.chunk.js.map",
     "runtime-main.js": "/amberyiyao/static/js/runtime-main.aacd8610.js",
     "runtime-main.js.map": "/amberyiyao/static/js/runtime-main.aacd8610.js.map",
     "static/css/2.7a16ea54.chunk.css": "/amberyiyao/static/css/2.7a16ea54.chunk.css",
-    "static/js/2.a0078543.chunk.js": "/amberyiyao/static/js/2.a0078543.chunk.js",
-    "static/js/2.a0078543.chunk.js.map": "/amberyiyao/static/js/2.a0078543.chunk.js.map",
+    "static/js/2.bad15aed.chunk.js": "/amberyiyao/static/js/2.bad15aed.chunk.js",
+    "static/js/2.bad15aed.chunk.js.map": "/amberyiyao/static/js/2.bad15aed.chunk.js.map",
     "index.html": "/amberyiyao/index.html",
-    "precache-manifest.5b5a8a404128734b7c12aa085719c0aa.js": "/amberyiyao/precache-manifest.5b5a8a404128734b7c12aa085719c0aa.js",
+    "precache-manifest.d5595820863dbd5c5eedf62f99f52286.js": "/amberyiyao/precache-manifest.d5595820863dbd5c5eedf62f99f52286.js",
     "service-worker.js": "/amberyiyao/service-worker.js",
     "static/css/2.7a16ea54.chunk.css.map": "/amberyiyao/static/css/2.7a16ea54.chunk.css.map",
-    "static/css/main.0cda7712.chunk.css.map": "/amberyiyao/static/css/main.0cda7712.chunk.css.map",
-    "static/js/2.a0078543.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.a0078543.chunk.js.LICENSE.txt",
+    "static/css/main.b5c98a18.chunk.css.map": "/amberyiyao/static/css/main.b5c98a18.chunk.css.map",
+    "static/js/2.bad15aed.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.bad15aed.chunk.js.LICENSE.txt",
+    "static/media/Hola_iPad.mov": "/amberyiyao/static/media/Hola_iPad.287faf08.mov",
+    "static/media/dashboard.mov": "/amberyiyao/static/media/dashboard.bca9f664.mov",
     "static/media/ContactMe.css": "/amberyiyao/static/media/homeBack.7e666208.png"
   },
   "entrypoints": [
     "static/js/runtime-main.aacd8610.js",
     "static/css/2.7a16ea54.chunk.css",
-    "static/js/2.a0078543.chunk.js",
-    "static/css/main.0cda7712.chunk.css",
-    "static/js/main.12cc49d3.chunk.js"
+    "static/js/2.bad15aed.chunk.js",
+    "static/css/main.b5c98a18.chunk.css",
+    "static/js/main.64a10116.chunk.js"
   ]
 }
