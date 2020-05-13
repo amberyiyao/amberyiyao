@@ -16,7 +16,8 @@ export default class Home extends React.Component{
             line3: 'A full-stack developer with UI/UX design skills.',
             button: 'About Me'
         },
-        isShowNotification: false
+        isShowNotification: false,
+        isWindowLarge: false
     }
 
     contactMeRef = React.createRef()
@@ -34,17 +35,32 @@ export default class Home extends React.Component{
         if(window.location.hash === '#contactMe'){
             this.scrollToContact()
         }
+        this.getWindowSize()
+        window.addEventListener('resize', this.getWindowSize)
+    }
+
+    componentWillMount(){
+        window.removeEventListener('resize', this.getWindowSize)
     }
     
     scrollToContact = () => {
         this.contactMeRef.current.scrollIntoView({ behavior: 'smooth' })
     }
 
+    getWindowSize = () => {
+        let windowWidth = window.innerWidth
+        let isWindowLarge = false
+        if(windowWidth > 1300){
+            isWindowLarge = true
+        }
+        this.setState({isWindowLarge})
+    }
+
     render(){
         return (
             <div className="homeMain">
                 <div className="shadowBox">
-                    <Header scrollToContact={this.scrollToContact} currentPage={this.state.currentPage} headerContent={this.state.headerContent}/>
+                    <Header isWindowLarge={this.state.isWindowLarge} scrollToContact={this.scrollToContact} currentPage={this.state.currentPage} headerContent={this.state.headerContent}/>
                     <AboutMe/>
                     <Works onShowWorkDetail={this.props.onShowWorkDetail} currentPage={0}/>
                     <ContactMe refC={this.contactMeRef} openNotification={this.openNotification}/>
