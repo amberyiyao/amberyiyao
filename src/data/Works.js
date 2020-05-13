@@ -1,3 +1,5 @@
+import HolaVideo from '../video/Hola_iPad.mov'
+import HolaDashboard from '../video/dashboard.mov'
 
 const works = [{
         id:1,
@@ -85,28 +87,46 @@ const works = [{
         type: 2,
         title:'Sunny Tutoring',
         discreption:'This is a design of a tutor application.',
-        time: '2019-11-21',
+        time: '2019-10-17',
         images:['https://g6ykeg.bn.files.1drv.com/y4mkqA9478k6dDXF-TqkpXgzb1zf614Xl6EK5figDT8BWNrSW5v8dVxetrcj2Xz6DR7qeto3IVE44gC-c9aBW-Uo6C9cYDAyhaUjvllOSeTQEanC5N1_5sp8gUnZk5XCJJ5Kx4YoN50wtYi2v8pgpqOcGGynWvNJEQRRVS1J_a39TSOd8TeF7KgyrjtTit_ZArrFRb0RfGwbh5b_SqOW5MyGQ?width=493&height=879&cropmode=none','https://gqyueg.bn.files.1drv.com/y4mDg4C6KYEVMINCz0PEgdUesPgEZF5WXcEw1q9Tu-e9d-cg3AJ3JkNymNEysVHWoO6aGZUoCieDqBEIOmdqrwhMyly5RAZ7nsT3dyDOHbjTOHK-pKKvfey3iPFwXTsWFZWFs6xixvATXEpsOc8WFHxUFGpuQ7YxA4pcGdKmWsWrJ9g875ebkfiL1qAtXrlOgF7bq2_9-d_rt07cS8vYnoavw?width=493&height=879&cropmode=none','https://g6yleg.bn.files.1drv.com/y4m7nq7_qvO9WmB4xYDAQdXwfHpGqWn0CQeOHYorlIUYll7whPHGR2an7p53Hxawst_E_QBj_8IUzmQObUmKNIsD2TftuDXo4JwQCSjvnF9DN-8ceuOwO2oPn4rTNuSkEMa3TKLrlFrY56LGmOSjqoiZXSBbTKRHRvxVKKsbl9cIoUXWfoPoItxoinBIxFv1PDiSdRKV8Df1PWlRB76mVMx8g?width=493&height=879&cropmode=none','https://g6yneg.bn.files.1drv.com/y4mVbFtcfS-6swyFkA5Sxid35WfCxDKeDw80xfNzQQqaxW4n_eiDcO6BWGiKQxR4dzPWJqL8I37sGov32reCKjyGVfEQIVQ6-Apd06-srNPz-Gc2jA2MU4Qa_rAkLInOOoFfb3Oy_VBnwALftgyuy8bmG1wbztveqtFLnetNIYoCs4uRc88JOj7wEGb-ICE0ugQI1AxOD9dv_sZxulIUxhsHA?width=1024&height=629&cropmode=none'],
         video:''
     },{
         id: 11,
         cover: 'https://hqyneg.bn.files.1drv.com/y4mt0vg1aQGBQ7a83b5JH6kUVfrJUc73c7bIit7g7RQGIJoJ1t7BI-CUEKUDYwlOnKELU9TUipl_NsSPg0SDAOD_rbC01Qe7ctyCRX4h_FyOMdhCBKgYxJh3cuX_oHMWkzOjjPAAgyQNO1AxllGk3JgNszwQ6bd8f9xLT-VS6Sd-5haGARUSF4K1fZmstb--NfxXFUiBzKwhy6BcKopfEp8YA?width=1000&height=1000&cropmode=none',
         type: 2,
-        title:'Hola - Visitor App',
+        title:'Hola - Design',
         discreption:'This is the design of Hola, an iPad application.',
-        time: '2019-11-21',
+        time: '2020-02-02',
         images:['https://hqyleg.bn.files.1drv.com/y4mQFAq0a6IkjGL4IFxVNT-pRQMfna09aTw5Zwn8WCKfM-26DXrL9k7gX1JDlVkS2rPP6e2wxEJ-2g_bFgm-Y-RmLKU7tqKzmGBYIn1mnxJ4rQ__4IwQmGdejLWhTovuZn99wEMm1ft2EGliPt6lYu22rTzZZCKDVBJp0xghoXzS5E0iqptQqH-VOTt6DAhKTayLUnQakos3eN6pwdN4j621w?width=768&height=1024&cropmode=none','https://hayveg.bn.files.1drv.com/y4masIBJknzX9XkyUn5z5vT5Y9TPXCQfXx-AfEhzQhUhExiQiVCqFaBKLPz_Kf0howrXQDZ_IXod8D_nIMPseBQDSa4Ok2QLwBmVIEJy3nixr3Ul54q_wzOD9r-m5YhUPBZWdGBeulM2-JSGtwu-47HiVTDsGR0X1eOqOELnmMmvYWEodEgNa5iRSALLArEASXUQ5eB7djdx45veT4Pfub8mw?width=768&height=1024&cropmode=none','https://haykeg.bn.files.1drv.com/y4mK03zFCvWAuRmm1dXaeUzCM5Myp-UnAOHygRYSQzsvbwGbsx7r3hB21ngyeFpW0uNJcJa0ObAq_o6XOKZddMvK4nuoRN_Uo2Vaaz6YPuqyDUJ4YEMTKKi4ylkW2skC0xLz1MFpQ8V8HvGCobpr9Mee0cYfNY74jLC9Jh0nCI09W7Sc7C5PpQDE7RCXoSjccuWb-0fL9laskzIbSOamG3xmQ?width=768&height=1024&cropmode=none','https://hayreg.bn.files.1drv.com/y4m8h37baYv1s4H-IEWyQccXK4hNe5QhqvVl-7vlALOtVKSNh2UjTbyQ_ODY2Fg4d9CNSIYavLVCyDQK2gRbzWloai0lhLpfOM4W5AQ3NrnwbMU1iVv4m0Wk1p0uQ_ReeYyj21UJ0O2q0-BpjzA0_-NNn87cvzd7VRQql1Vlg7LH7ZAhoBPiKWXO3ejdk29t1YQw9kiWotq_17MjUtq6QU9iw?width=768&height=1024&cropmode=none','https://haypeg.bn.files.1drv.com/y4mi550z6cj3OJ4E3V9Sv_jyTh2GgQDCBGw5FVKigvMARvD8Jw703APmLNmuq8fbSBbTTv81SEUiS34wFgIJKSb7LlVXQNWRKapCL0eX-mcfDskpNs0xuCtD6ppykIJreBjwtrJyk0Ro2XCR4h_Xd82vAvXN5dtSATg9BZE63bl7MYeaOIXAnyGzsu7VjLKnnTKOjbuTOG5sj--pzkTFcZwxQ?width=768&height=1024&cropmode=none','https://hayqeg.bn.files.1drv.com/y4mIHRD4UfHhKkbDK6_pJI_-4FwLvwp1kG5Z-aElZmAiBiQgj6ECg7HAIODM1ig78kGGJ2ae06xttOqno5bDEiZ_iT3GJJ4xXYqxJS4awZ0NXAO7ui8k3n170KXR266VClgO8Rhr2r2Q5zZ3GeRkDPoxcdjtV5qYgPkugIivvNQyGVyUcT825OwuXXpr2mxhv0PwSPmsd9GmcKwwnInqocaHg?width=768&height=1024&cropmode=none','https://hayoeg.bn.files.1drv.com/y4mTSdFqqYWtp2YFJGpaFM2o8lJsVx0TDytRiZR73YwplfBnZF_4G1ulaSexNnLenxx6gro5XBxdPbDixSzX-ui45MywRgPQMm6iaCbSDdgB0tWf6shKOew-62LHJVOjBpgbmAm_rYD4YYy-aEPvvki39JIvyscviDSSqnNAb7yZ4_wOUL0Q_it0EFJkqtU7RSR3Tt6vqUBO3Z79etJkUUkrw?width=768&height=1024&cropmode=none','https://hqymeg.bn.files.1drv.com/y4mkgaA0F1qFJ_UpGH04iQxoRWUmil4PxOzt3iqbbn52jdf9KANU0sC6N2AZBG-PemGuCw3hqx5oo7QspbYQEmAfgrw1zqg7aa5KEHG0O5dLbLBKm1Bp1kRZqJPvgTrLNa96MTS__c_MRXRoF4evBlU14jSmyCgkpW5myWjsOw6GRWVvvGZtTnxUkTMhEEAvKdlQd39PMFHJDUfcjnLwBfQqA?width=768&height=1024&cropmode=none'],
         video:''
     },{
         id: 12,
         cover: 'https://hayneg.bn.files.1drv.com/y4mWW-qXhM84kKn26oGuVe08fZRJv5lOIAP4UJQYDMI_QZ9olD_fYyC-ES0fxzAHVCu98rXRaXeQ6wt48QWqJTYpHTxeqSFdUGnLL4Jsxm4d-53i7NicFwlBaaYdPXjv9KAS89PiN2pDbdeXabXliHeMKCPbu9_HUpndGkncJnUDoE_AjyZPj0xv2tMH5CtW4JvNaTrVCAa0etUWXfbJX_1KA?width=1000&height=1000&cropmode=none',
         type: 2,
-        title:'Hola Dashboard',
+        title:'Hola Dashboard - Design',
         discreption:'This is the website that manage the visitor app, Hola.',
-        time: '2019-11-21',
+        time: '2020-02-21',
         images:['https://hayleg.bn.files.1drv.com/y4m2deFpHI45KyVGHj3rwWFsdgkiRzhTCEQ5YV2AR_yl94AT-yykHS-3inBd1FUsHWUqTt3dZMCy3MRIcKcXem3fkFeOsC-jIEa5ZZkHQiTN6JEce89vb06DjWqlCg95FMeUNDi90P8VdMiX7UvjFgC3IcdkqUq626374LVJ6Lxx8v7kfvpkP1fZmdWA7OiaMh17sJ61FwuzScEUiKeeh3QpQ?width=1024&height=728&cropmode=none','https://hkyqeg.bn.files.1drv.com/y4mpF4nQ25BC_IBijxOyjiMFjeJL15Bxsl_kF3pCR8CXjitvrnBRvzWPuzz3IB0XghkrKf-60yrr01Co48s_uq5yXOehkOzB-LRLA47OvcZagwFxEIup3YMG_po-hYe6ipMrUtqlcmwRvWHpfc_kkzVZ3YhyBvggZphqGILyK-Rqmb1jD5xC-lX7-DUDJ5H5qNkM_E27Vnk0zVy9irr4usiKQ?width=1024&height=728&cropmode=none','https://hkykeg.bn.files.1drv.com/y4mZshsREECYCmLSJQx9YXf-aBRW7-jmPukUrFoJCAlq8_pK43UAgnCGC_F7FATOu_3RYI3Bh4iCvbZXQMeUTNCTn67cQS5YtWDAWHWzxQtVySYgWqGzbV8BSujp9BpAOjVdK0gC4f9u8v0F2nLw3utn_ydrVRchamUJKoWZCR9qEaLM8ISdjNW-FV5h9AqsPJJJQ5H-yugSPYmZMqBbw0sow?width=1024&height=728&cropmode=none','https://hkyueg.bn.files.1drv.com/y4mE34QjuX-IvAWvcqpeF7r5PXObQTjewCeBxjxUf355YbxvKDeDnBZirNFqt9EaDmDSotEOwq5UikPupW-1lxLoWpXQy9cmoOHieiTC6r2BDawWI9knGeEWG_JLOJwaJSvgBY3bXsASAhf-nRuzUUDyFSEB5VM7xcUmvkOm15mVc7voBGnaLrbHJ88CbPq5gE4naSojtxRyCSB-9JeBvf_zw?width=1024&height=728&cropmode=none','https://hkypeg.bn.files.1drv.com/y4m-wb5k3bBFJhK6jaNBi5c26wZsM8D-xLsaz_guI7bq_n4V8W-UTWBwW70rxDE0x_Vuwe7MiqxhZT4mhHqHp3m0fxzcO4iN9p113GN81x__JHh0uPFbCrqIMEmc9Z0vZZXW7VyLE59cpmILxDvKG3grd-qhZ_fChP5R29GhmnxA4cwv6Tq_DeZ0A2atF9h6OsX9Y4Dbxapfx7F3PxV3txzng?width=1024&height=728&cropmode=none','https://hkyreg.bn.files.1drv.com/y4mgnNdSdPp3qNUCrcWgZtUI6nF7_CuZOqXZlAQyQx1kjFDc6EB9OzTEbtS850uO6aJ7-2YxXQTJAXNpiusmaI5vJKsq7WRjJx5HzDYIrRJnSrbNrCyyATcF2BZlyPUYChdU8PfW1c4NKdP9DJsmIUYnplrEx5FbmIkmg7MAmRw3Q5szw4qG22DZbW3rhZriDkhK9KwMgx_L0Sg73sXVNaM7Q?width=1024&height=728&cropmode=none'],
         video:''
-    },
+    },{
+        id: 13,
+        cover: 'https://hqypeg.bn.files.1drv.com/y4m2K-5WjlK8MyNvmwAuT10pZ5EdVL8EvDFabeqLjcn03bVHI7LySdiMTTh0-MR721-U1aOnfPXdXO1kZ4OgIOwKxUcYXtCvjJ7X-sQ8ZYosWH1oCqNYhG7zeHyTpTnGewd2tEBHObjlXvwnRuutbYxlr_fm4OOK4YSi2P6p0LR10ei9Nav8u6ebkZmtgOONa9TDnV7UsDBC_GfpRrYq9aL9w?width=1000&height=1000&cropmode=none',
+        type: 1,
+        title:'Hola Dashboard - Development',
+        discreption:'This is a React website that manage the visitor app, Hola. I finished this website with another team menber.',
+        time: '2020-03-09',
+        images:[],
+        video:HolaDashboard
+    },{
+        id: 14,
+        cover: 'https://hqyoeg.bn.files.1drv.com/y4mN_bYB5sM8ehcbjB2FfHFzc2nko_CyMl4bVcaudFN_BG3KRG20xq1gcedx20v2BALZQ7mgqiGmm7Q1a19MN4g5__e63yVqQ3KyIf7pNWvPSXdTvCvILrBd6uujvcBADTK4qgxWRC2TA8FIsG3sfxcEdJnsfV3zIr1KcpnnJy1dQKqFR-UzYDHLqJ6aXZQW63W_9u6teLcpFEFO6zqu5gnMQ?width=1000&height=1000&cropmode=none',
+        type: 1,
+        title:'Hola - Development',
+        discreption:'This is a Visitor application using React-native. I finished this website with our 3 people front-end team.',
+        time: '2020-02-18',
+        images:[],
+        video:HolaVideo
+    }
 
 ]
 
