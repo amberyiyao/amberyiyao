@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amberyiyao/static/css/main.b5c98a18.chunk.css",
+    "main.css": "/amberyiyao/static/css/main.2576dd38.chunk.css",
     "main.js": "/amberyiyao/static/js/main.64a10116.chunk.js",
     "main.js.map": "/amberyiyao/static/js/main.64a10116.chunk.js.map",
     "runtime-main.js": "/amberyiyao/static/js/runtime-main.aacd8610.js",
@@ -9,10 +9,10 @@
     "static/js/2.bad15aed.chunk.js": "/amberyiyao/static/js/2.bad15aed.chunk.js",
     "static/js/2.bad15aed.chunk.js.map": "/amberyiyao/static/js/2.bad15aed.chunk.js.map",
     "index.html": "/amberyiyao/index.html",
-    "precache-manifest.d5595820863dbd5c5eedf62f99f52286.js": "/amberyiyao/precache-manifest.d5595820863dbd5c5eedf62f99f52286.js",
+    "precache-manifest.0b6e37998f1706832c97c39d573e2589.js": "/amberyiyao/precache-manifest.0b6e37998f1706832c97c39d573e2589.js",
     "service-worker.js": "/amberyiyao/service-worker.js",
     "static/css/2.7a16ea54.chunk.css.map": "/amberyiyao/static/css/2.7a16ea54.chunk.css.map",
-    "static/css/main.b5c98a18.chunk.css.map": "/amberyiyao/static/css/main.b5c98a18.chunk.css.map",
+    "static/css/main.2576dd38.chunk.css.map": "/amberyiyao/static/css/main.2576dd38.chunk.css.map",
     "static/js/2.bad15aed.chunk.js.LICENSE.txt": "/amberyiyao/static/js/2.bad15aed.chunk.js.LICENSE.txt",
     "static/media/Hola_iPad.mov": "/amberyiyao/static/media/Hola_iPad.287faf08.mov",
     "static/media/dashboard.mov": "/amberyiyao/static/media/dashboard.bca9f664.mov",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.aacd8610.js",
     "static/css/2.7a16ea54.chunk.css",
     "static/js/2.bad15aed.chunk.js",
-    "static/css/main.b5c98a18.chunk.css",
+    "static/css/main.2576dd38.chunk.css",
     "static/js/main.64a10116.chunk.js"
   ]
 }
